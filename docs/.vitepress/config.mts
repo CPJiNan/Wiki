@@ -47,7 +47,7 @@ export default defineConfig({
             collapsed: true,
             items:[
               { text: '❗ 重要地址', link:'/AkariLevel/about/link'},
-              { text: '📈 数据统计', link:'/AkariLevel/about/stats'},
+              { text: '📈 数据统计', link:'/AkariLevel/about/metrics'},
               { text: '🎁 支持作者', link:'/AkariLevel/about/donate'}
             ]
           },
