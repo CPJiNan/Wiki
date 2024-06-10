@@ -6,3 +6,12 @@
 **插件文档:** https://cpjinan.github.io/Wiki/
 
 **插件下载:** https://www.spigotmc.org/resources/116936/
+
+**特别鸣谢(排名不分先后):**
+- Golden_Water
+- 2000000
+- liangcha385
+- xiaochunkun
+- Sting
+- YangXiaoMian
+- Shanshui2024
