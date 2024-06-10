@@ -40,7 +40,7 @@ export default defineConfig({
               },
               { text: '🎼️ 命令', link:'/AkariLevel/start/command'},
               { text: '🚫 权限', link:'/AkariLevel/start/permission'},
-              { text: '📦 变量', link:'/AkariLevel/start/placeholder'}
+              { text: '🏷 变量', link:'/AkariLevel/start/placeholder'}
             ]
           },
           { text: '🌥️ 关于',
@@ -54,8 +54,8 @@ export default defineConfig({
           { text: '🛠️ 开发',
             collapsed: true,
             items:[
-              { text: '📍 API', link:'/AkariLevel/develop/api'},
-              { text: '⏱️ 事件', link:'/AkariLevel/develop/event'},
+              { text: '📦 API', link:'/AkariLevel/develop/api'},
+              { text: '📍 事件', link:'/AkariLevel/develop/event'},
               { text: '📨 来源', link:'/AkariLevel/develop/source'}
             ]
           }

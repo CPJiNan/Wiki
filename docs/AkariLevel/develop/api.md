@@ -1,4 +1,4 @@
-# 📍 API
+# 📦 API
 > com.github.cpjinan.plugin.akarilevel.api.AkariLevelAPI
 ``` kotlin
 /**
