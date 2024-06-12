@@ -1,6 +1,23 @@
 # 📍 事件
 > com.github.cpjinan.plugin.akarilevel.common.event
 
+---
+**构建发行版本**
+
+发行版本用于正常使用, 不含 TabooLib 本体。
+```
+./gradlew clean build
+```
+**构建开发版本**
+
+开发版本包含 TabooLib 本体, 用于开发者使用, 但不可运行。
+```
+./gradlew clean taboolibBuildApi -PDeleteCode
+```
+> 参数 -PDeleteCode 表示移除所有逻辑代码以减少体积。
+---
+
+> 请使用开发版本作为依赖编写插件，否则可能会无法监听 AkariLevel 定义的事件。
 ``` kotlin
 /**
  * 玩家拥有的 AkariExp 经验变更事件
