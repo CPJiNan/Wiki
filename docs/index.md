@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 插件文档
-      link: /AkariLevel
+      link: /AkariPlugins
     - theme: alt
       text: Github
       link: https://github.com/CPJiNan
