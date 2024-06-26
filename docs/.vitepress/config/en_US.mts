@@ -1,12 +1,11 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
+export const en_US = defineConfig({
   base: '/Wiki/',
+  lang: 'en-US',
   title: "AkariPlugins 澄明系列插件",
   description: "欢迎查阅 AkariPlugins 公开文档",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
       { text: 'AkariLevel', link: '/AkariLevel/' }

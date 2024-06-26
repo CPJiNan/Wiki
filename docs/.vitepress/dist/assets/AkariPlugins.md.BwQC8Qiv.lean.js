@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as r,a1 as a}from"./chunks/framework.DCKU21so.js";const k=JSON.parse('{"title":"首页","description":"","frontmatter":{},"headers":[],"relativePath":"AkariPlugins.md","filePath":"AkariPlugins.md"}'),i={name:"AkariPlugins.md"},n=a("",3),s=[n];function o(l,c,h,d,_,g){return r(),e("div",null,s)}const u=t(i,[["render",o]]);export{k as __pageData,u as default};
