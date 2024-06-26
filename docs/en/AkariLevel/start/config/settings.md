@@ -284,9 +284,11 @@ Drops:
 > - AttributePlus 的属性名称是"属性默认名"而非"服务器属性名"
 
     >  (摘自AttributePlus Wiki，服务器属性名尚待测试)
+
 > - SX-Attribute 的属性名称是其英文名而非 DiscernName
 
     >  (即默认应填写 "ExpAddition" 而非"经验增幅")
+
 > - OriginAttribute 默认读取 ExpAddon 为经验加成属性, 无需填写 Name 配置项
 
 - Formula
