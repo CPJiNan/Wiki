@@ -3,16 +3,14 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     base: '/Wiki/',
     locales: {
-        root: {
-            base: '/Wiki/',
+        '/zh/': {
             label: '简体中文',
             lang: 'zh',
-            link: '/zh/',
             title: "AkariPlugins 澄明系列插件",
             description: "欢迎查阅 AkariPlugins 公开文档",
             themeConfig: {
                 nav: [
-                    {text: '首页', link: '/'},
+                    {text: '首页', link: '/zh/'},
                     {text: 'AkariLevel', link: '/zh/AkariLevel/'}
                 ],
                 sidebar: [
@@ -66,16 +64,14 @@ export default defineConfig({
                 ]
             }
         },
-        en: {
-            base: '/Wiki/',
+        '/en/': {
             label: 'English',
             lang: 'en',
-            link: '/en/',
             title: "AkariPlugins",
-            description: "欢迎查阅 AkariPlugins 公开文档",
+            description: "Welcome to AkariPlugins documentation",
             themeConfig: {
                 nav: [
-                    {text: '首页', link: '/'},
+                    {text: '首页', link: '/en/'},
                     {text: 'AkariLevel', link: '/en/AkariLevel/'}
                 ],
                 sidebar: [
