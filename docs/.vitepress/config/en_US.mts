@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
-export default defineConfig({
+export const en_US =  defineConfig({
   base: '/Wiki/',
-  lang: 'zh-CN',
+  lang: 'en-US',
   title: "AkariPlugins 澄明系列插件",
   description: "欢迎查阅 AkariPlugins 公开文档",
   themeConfig: {
