@@ -71,21 +71,21 @@ export default defineConfig({
             description: "Welcome to AkariPlugins documentation",
             themeConfig: {
                 nav: [
-                    {text: '首页', link: '/en/'},
+                    {text: 'Home', link: '/en/'},
                     {text: 'AkariLevel', link: '/en/AkariLevel/'}
                 ],
                 sidebar: [
                     {
                         text: 'AkariLevel',
                         items: [
-                            {text: '⏱️ 首页', link: '/en/AkariLevel/'},
+                            {text: '⏱️ Home', link: '/en/AkariLevel/'},
                             {
-                                text: '🔥 开始',
+                                text: '🔥 Getting Started',
                                 collapsed: false,
                                 items: [
-                                    {text: '✨ 安装', link: '/en/AkariLevel/start/install'},
+                                    {text: '✨ Installation', link: '/en/AkariLevel/start/install'},
                                     {
-                                        text: '📃 配置',
+                                        text: '📃 Configuration',
                                         link: '/en/AkariLevel/start/config/',
                                         collapsed: true,
                                         items: [
@@ -94,27 +94,27 @@ export default defineConfig({
                                             {text: '📘 lang/zh_CN.yml', link: '/en/AkariLevel/start/config/lang_zh_CN'}
                                         ]
                                     },
-                                    {text: '🎼️ 命令', link: '/en/AkariLevel/start/command'},
-                                    {text: '🚫 权限', link: '/en/AkariLevel/start/permission'},
-                                    {text: '🏷 变量', link: '/en/AkariLevel/start/placeholder'}
+                                    {text: '🎼️ Commands', link: '/en/AkariLevel/start/command'},
+                                    {text: '🚫 Permissions', link: '/en/AkariLevel/start/permission'},
+                                    {text: '🏷 Placeholders', link: '/en/AkariLevel/start/placeholder'}
                                 ]
                             },
                             {
-                                text: '🌥️ 关于',
+                                text: '🌥️ About',
                                 collapsed: true,
                                 items: [
-                                    {text: '❗ 重要地址', link: '/en/AkariLevel/about/link'},
-                                    {text: '📈 数据统计', link: '/en/AkariLevel/about/metrics'},
-                                    {text: '🎁 支持作者', link: '/en/AkariLevel/about/donate'}
+                                    {text: '❗ Important Links', link: '/en/AkariLevel/about/link'},
+                                    {text: '📈 Metrics', link: '/en/AkariLevel/about/metrics'},
+                                    {text: '🎁 Support Us', link: '/en/AkariLevel/about/donate'}
                                 ]
                             },
                             {
-                                text: '🛠️ 开发',
+                                text: '🛠️ Development',
                                 collapsed: true,
                                 items: [
                                     {text: '📦 API', link: '/en/AkariLevel/develop/api'},
-                                    {text: '📍 事件', link: '/en/AkariLevel/develop/event'},
-                                    {text: '📨 来源', link: '/en/AkariLevel/develop/source'}
+                                    {text: '📍 Events', link: '/en/AkariLevel/develop/event'},
+                                    {text: '📨 Source Code', link: '/en/AkariLevel/develop/source'}
                                 ]
                             }
                         ]

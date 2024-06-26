@@ -1,11 +1,9 @@
 # 🚲 level.yml
-
 > ❗ 不同版本间的配置文件可能会略有差异，请以实际生成配置为准
 
 > 🚫 进行重要操作前，请先进行备份以防数据丢失
 
 ---
-
 ``` yaml
 #################################
 #        Level  Settings        #
@@ -57,7 +55,6 @@ Settings:
       - subtitle inline "{{ papi %akarilevel_lastlevelname% }} §7→ {{ papi %akarilevel_levelname% }}" by 10 20 10
       - actionbar inline "§8[ §7{{ papi %akarilevel_exp% }} §8/ §7{{ papi %akarilevel_nextlevelexp% }} §8]"
 ```
-
 ---
 
 - Max-Level
@@ -70,35 +67,32 @@ Settings:
 
 ```读取某一关键等级条件: 当前等级>=当前关键等级 且 当前等级<下一关键等级```
 
--> Name
+  -> Name
+  
+  ```目标等级的名称```
 
-```目标等级的名称```
+  > %level% -> 对应等级 (其中%level%是插件内置变量，无法应用于PlaceholderAPI)
 
-> %level% -> 对应等级 (其中%level%是插件内置变量，无法应用于PlaceholderAPI)
-
--> Exp
-
+  -> Exp
   ```
   升级至目标等级所需经验
   (JavaScript运算支持)
   ```
-
 > 如需固定升级经验，直接输入数字即可
 >
 >%level% -> 目标等级 (其中%level%是插件内置变量，无法应用于PlaceholderAPI)
 
--> Condition
+  -> Condition
 
-```升级至目标等级需满足的条件```
+  ```升级至目标等级需满足的条件```
 > Kether支持, 每行**返回值**均为 true 时才可升级
 
--> Action
+  -> Action
 
-```升级至目标等级后执行的动作 (Kether支持)```
+  ```升级至目标等级后执行的动作 (Kether支持)```
 > Kether动作列表: https://kether.tabooproject.org/list.html
 
 ## 示例解析
-
 ``` yaml 
 Max-Level: 100 #该服务器允许玩家达到的最大等级为 100 级
 ```
@@ -111,14 +105,13 @@ Settings:
     Condition: [ ]
     Action: [ ]
 ```
-
 > 0 级是一个关键等级，以上设置将仅应用于 0 级
 >
 > 该等级在变量 %AkariLevel_LevelName% 中显示的名称为 Lv.0
 >
 >升级至该等级不需要经验 (所需经验为0)
 >
->升级至该等级不需要满足任何条件
+>升级至该等级不需要满足任何条件 
 >
 >(Condition为空的List -> Boolean，即每项都为 true , 符合要求)
 >
@@ -135,8 +128,7 @@ Settings:
     - subtitle inline "{{ papi %akarilevel_lastlevelname% }} §7→ {{ papi %akarilevel_levelname% }}" by 10 20 10
     - actionbar inline "§8[ §7{{ papi %akarilevel_exp% }} §8/ §7{{ papi %akarilevel_nextlevelexp% }} §8]"
 ```
-
-> 1 级是一个关键等级，以上设置将应用于 1 ~ 49 级
+>1 级是一个关键等级，以上设置将应用于 1 ~ 49 级
 >
 >(49级 为下一个关键等级 50级 之前的等级)
 >
@@ -144,7 +136,7 @@ Settings:
 >
 >升级至该等级所需经验为 目标等级*5+100
 
-> 0级→1级 所需经验: 105
+>0级→1级 所需经验: 105
 >
 >1级→2级 所需经验: 110
 >
@@ -154,12 +146,11 @@ Settings:
 >
 >49级→50级 则读取下一个关键等级 50级 的配置
 
-> 升级至该等级需要玩家拥有 akarilevel.default 权限
+>升级至该等级需要玩家拥有 akarilevel.default 权限
 >
 >更多条件请见 Kether动作列表: https://kether.tabooproject.org/list.html
 >
 >升级至该等级会为玩家发送指定内容的 title、subtitle、actionbar 消息
-
 ``` yaml
 50:
   Name: "§8Lv.§b%level%"
@@ -171,8 +162,7 @@ Settings:
     - subtitle inline "{{ papi %akarilevel_lastlevelname% }} §7→ {{ papi %akarilevel_levelname% }}" by 10 20 10
     - actionbar inline "§8[ §7{{ papi %akarilevel_exp% }} §8/ §7{{ papi %akarilevel_nextlevelexp% }} §8]"
 ```
-
-> 50 级是一个关键等级，以上设置将应用于 50 ~ 100 级
+>50 级是一个关键等级，以上设置将应用于 50 ~ 100 级
 >
 >(50级 后不再存在其他关键等级，故该设置应用于该关键等级 50级 至最高等级 100级)
 >
@@ -180,7 +170,7 @@ Settings:
 >
 >升级至该等级所需经验为 目标等级*10+100
 
-> 49级→50级 所需经验: 600
+>49级→50级 所需经验: 600
 >
 >50级→51级 所需经验: 610
 >

@@ -1,5 +1,4 @@
 # 🎼 命令
-
 ```
 /akarilevel - 插件主命令 (Aliases: /exp 或 /level)
 
