@@ -13,12 +13,6 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'AkariPlugins',
-        items: [
-          { text: '🏠 插件列表', link: '/AkariPlugins'}
-        ]
-      },
-      {
         text: 'AkariLevel',
         items: [
           { text: '⏱️ 首页', link: '/AkariLevel/' },
