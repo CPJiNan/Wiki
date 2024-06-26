@@ -1,6 +1,7 @@
 import {defineConfig} from 'vitepress'
 
 export default defineConfig({
+    base: '/Wiki/',
     locales: {
         root: {
             base: '/Wiki/',
