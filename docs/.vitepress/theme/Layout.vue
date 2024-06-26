@@ -1,15 +1,15 @@
 <!-- docs/.vitepress/theme/Layout.vue -->
-<script setup lang="ts">
+<script lang="ts" setup>
 import DefaultTheme from 'vitepress/theme'
-import { useData } from 'vitepress'
-import { watchEffect } from 'vue'
+import {useData} from 'vitepress'
+import {watchEffect} from 'vue'
 
-const { lang } = useData()
+const {lang} = useData()
 watchEffect(() => {
-    document.cookie = `nf_lang=${lang.value}; expires=Mon, 1 Jan 2030 00:00:00 UTC; path=/`
+  document.cookie = `nf_lang=${lang.value}; expires=Mon, 1 Jan 2030 00:00:00 UTC; path=/`
 })
 </script>
 
 <template>
-  <DefaultTheme.Layout />
+  <DefaultTheme.Layout/>
 </template>
