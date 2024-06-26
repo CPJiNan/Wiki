@@ -1,9 +1,9 @@
 import {defineConfig} from 'vitepress'
 
 export default defineConfig({
-    base: '/Wiki/',
     locales: {
         root: {
+            base: '/Wiki/',
             label: '简体中文',
             lang: 'zh',
             link: '/zh/',
@@ -66,6 +66,7 @@ export default defineConfig({
             }
         },
         en: {
+            base: '/Wiki/',
             label: 'English',
             lang: 'en',
             link: '/en/',
