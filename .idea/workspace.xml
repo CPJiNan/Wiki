@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8c0062c-4c8b-460d-a565-20d88f5dacf1" name="更改" comment="[+]修改Pages布局" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CPJiNan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CPJiNan/Wiki.git&quot;,
+    &quot;accountId&quot;: &quot;a1bf865b-d26d-468c-abda-3b4298a5d8ce&quot;
+  }
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2T9XtD8SF6iwn7i6ncWTkpogKSw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mac/IdeaProjects/Wiki/docs/en",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "问题",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.25632185",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.idea" />
+      <recent name="$PROJECT_DIR$/docs/en" />
+      <recent name="$PROJECT_DIR$/docs/zh" />
+      <recent name="$PROJECT_DIR$/docs/en_US" />
+      <recent name="$PROJECT_DIR$/docs/.vitepress/config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/.vitepress" />
+      <recent name="$PROJECT_DIR$/docs/zh_CN" />
+      <recent name="$PROJECT_DIR$/docs/.vitepress/config" />
+      <recent name="$PROJECT_DIR$/docs/AkariLevel/about" />
+      <recent name="$PROJECT_DIR$/docs/AkariLevel/start" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="b8c0062c-4c8b-460d-a565-20d88f5dacf1" name="更改" comment="" />
+      <created>1690456482786</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690456482786</updated>
+      <workItem from="1690456485747" duration="552000" />
+      <workItem from="1690467178169" duration="1000" />
+      <workItem from="1690467571851" duration="23000" />
+      <workItem from="1690467603293" duration="110000" />
+      <workItem from="1690639094809" duration="204000" />
+      <workItem from="1690725165691" duration="60000" />
+      <workItem from="1690725308556" duration="150000" />
+      <workItem from="1690872326969" duration="20000" />
+      <workItem from="1690942890189" duration="87000" />
+      <workItem from="1690981994899" duration="24000" />
+      <workItem from="1691114847894" duration="66000" />
+      <workItem from="1691116269727" duration="4000" />
+      <workItem from="1691461803080" duration="151000" />
+      <workItem from="1692111001409" duration="38000" />
+      <workItem from="1692111077756" duration="9000" />
+      <workItem from="1692503216340" duration="99000" />
+      <workItem from="1692503711483" duration="2000" />
+      <workItem from="1701009617516" duration="1000" />
+      <workItem from="1701595572326" duration="294000" />
+      <workItem from="1701595940561" duration="3000" />
+      <workItem from="1702127146556" duration="68000" />
+      <workItem from="1702205585725" duration="4000" />
+      <workItem from="1703246555850" duration="1034000" />
+      <workItem from="1703563475190" duration="21000" />
+      <workItem from="1703601647634" duration="29000" />
+      <workItem from="1703603703733" duration="18000" />
+      <workItem from="1703686970799" duration="14000" />
+      <workItem from="1703736365086" duration="15000" />
+      <workItem from="1703777425278" duration="35000" />
+      <workItem from="1703779231770" duration="19000" />
+      <workItem from="1704017769993" duration="21000" />
+      <workItem from="1704030931661" duration="45000" />
+      <workItem from="1704031065344" duration="34000" />
+      <workItem from="1704097030549" duration="12000" />
+      <workItem from="1704588580121" duration="153000" />
+      <workItem from="1704608869132" duration="90000" />
+      <workItem from="1704627815075" duration="245000" />
+      <workItem from="1704629441375" duration="43000" />
+      <workItem from="1704713969130" duration="41000" />
+      <workItem from="1705290577282" duration="98000" />
+      <workItem from="1705631532751" duration="300000" />
+      <workItem from="1705631838804" duration="50000" />
+      <workItem from="1705631910227" duration="1243000" />
+      <workItem from="1705640559719" duration="21000" />
+      <workItem from="1705640704149" duration="19000" />
+      <workItem from="1705724797131" duration="262000" />
+      <workItem from="1705760628270" duration="172000" />
+      <workItem from="1705848568470" duration="85000" />
+      <workItem from="1705893852521" duration="184000" />
+      <workItem from="1705894040179" duration="360000" />
+      <workItem from="1706190908990" duration="1000" />
+      <workItem from="1706457428446" duration="42000" />
+      <workItem from="1706767393278" duration="148000" />
+      <workItem from="1706794145880" duration="561000" />
+      <workItem from="1706840151851" duration="2000" />
+      <workItem from="1706884616446" duration="42000" />
+      <workItem from="1707047658472" duration="30000" />
+      <workItem from="1707223386827" duration="16000" />
+      <workItem from="1707621851378" duration="6000" />
+      <workItem from="1707628512696" duration="1000" />
+      <workItem from="1707664460110" duration="16000" />
+      <workItem from="1707664504988" duration="3000" />
+      <workItem from="1707744393703" duration="20000" />
+      <workItem from="1710560660898" duration="44000" />
+      <workItem from="1712569255136" duration="198000" />
+      <workItem from="1712569472674" duration="65000" />
+      <workItem from="1713070290772" duration="4000" />
+      <workItem from="1713076088353" duration="38000" />
+      <workItem from="1715494744673" duration="1192000" />
+      <workItem from="1716468758292" duration="3000" />
+      <workItem from="1716562347602" duration="65000" />
+      <workItem from="1716562627170" duration="598000" />
+      <workItem from="1716566611648" duration="186000" />
+      <workItem from="1716566835357" duration="7000" />
+      <workItem from="1717604751280" duration="37000" />
+      <workItem from="1717673324273" duration="246000" />
+      <workItem from="1717895904401" duration="40000" />
+      <workItem from="1717939900556" duration="389000" />
+      <workItem from="1717940478519" duration="245000" />
+      <workItem from="1717945765367" duration="213000" />
+      <workItem from="1717946234793" duration="834000" />
+      <workItem from="1717947228906" duration="405000" />
+      <workItem from="1717947636519" duration="227000" />
+      <workItem from="1717948024992" duration="21000" />
+      <workItem from="1718021931742" duration="3818000" />
+      <workItem from="1718025760768" duration="26000" />
+      <workItem from="1718025788402" duration="16000" />
+      <workItem from="1718025806945" duration="8000" />
+      <workItem from="1718025816454" duration="19000" />
+      <workItem from="1718025836701" duration="15000" />
+      <workItem from="1718025868006" duration="1323000" />
+      <workItem from="1718198292155" duration="1163000" />
+      <workItem from="1718200425307" duration="1074000" />
+      <workItem from="1719393456351" duration="920000" />
+      <workItem from="1719394389469" duration="108000" />
+      <workItem from="1719394500011" duration="1490000" />
+      <workItem from="1719396052256" duration="130000" />
+      <workItem from="1719396322011" duration="6054000" />
+      <workItem from="1719415935208" duration="118000" />
+    </task>
+    <task id="LOCAL-00001" summary="[+] 修改Pages布局">
+      <created>1690456926833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690456926833</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[+] 修改Pages布局">
+      <created>1690467694850</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690467694850</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[+] 修改Pages布局">
+      <created>1690639112917</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690639112917</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[+] 修改Pages布局">
+      <created>1690725433931</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690725433931</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[+] 修改Pages布局">
+      <created>1690872336165</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690872336165</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[+] 修改Pages布局">
+      <created>1690942950504</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690942950504</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[+] 修改Pages布局">
+      <created>1690982013201</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690982013201</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[+] 修改Pages布局">
+      <created>1691461816722</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691461816722</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[+] 修改Pages布局">
+      <created>1692111016973</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692111016973</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[+] 修改Pages布局">
+      <created>1692503242891</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1692503242891</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[+] 修改Pages布局">
+      <created>1701595594597</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701595594597</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[+] 修改Pages布局">
+      <created>1702127209936</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702127209936</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[+] 修改Pages布局">
+      <created>1703247217537</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703247217537</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[+] 修改Pages布局">
+      <created>1703563488878</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703563488878</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[+] 修改Pages布局">
+      <created>1703601661055</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1703601661055</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[+] 修改Pages布局">
+      <created>1703603715266</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1703603715266</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[+] 修改Pages布局">
+      <created>1703686979461</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1703686979461</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[+] 修改Pages布局">
+      <created>1703736375248</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1703736375248</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[+] 修改Pages布局">
+      <created>1703777433928</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1703777433928</updated>
+    </task>
+    <task id="LOCAL-00020" summary="[+] 修改Pages布局">
+      <created>1703779244514</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1703779244514</updated>
+    </task>
+    <task id="LOCAL-00021" summary="[+] 修改Pages布局">
+      <created>1704017783597</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1704017783598</updated>
+    </task>
+    <task id="LOCAL-00022" summary="[+] 修改Pages布局">
+      <created>1704031089728</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1704031089728</updated>
+    </task>
+    <task id="LOCAL-00023" summary="[+] 修改Pages布局">
+      <created>1704097036783</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1704097036783</updated>
+    </task>
+    <task id="LOCAL-00024" summary="[+] 修改Pages布局">
+      <created>1704588588015</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1704588588015</updated>
+    </task>
+    <task id="LOCAL-00025" summary="[+] 修改Pages布局">
+      <created>1704608876691</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1704608876691</updated>
+    </task>
+    <task id="LOCAL-00026" summary="[+] 修改Pages布局">
+      <created>1704608949508</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1704608949508</updated>
+    </task>
+    <task id="LOCAL-00027" summary="[+] 修改Pages布局">
+      <created>1704627829508</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1704627829508</updated>
+    </task>
+    <task id="LOCAL-00057" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1718026988781</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1718026988781</updated>
+    </task>
+    <task id="LOCAL-00058" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1718199445591</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1718199445591</updated>
+    </task>
+    <task id="LOCAL-00059" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1718201382705</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1718201382705</updated>
+    </task>
+    <task id="LOCAL-00060" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719394324488</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1719394324488</updated>
+    </task>
+    <task id="LOCAL-00061" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719395968128</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1719395968128</updated>
+    </task>
+    <task id="LOCAL-00062" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719396462223</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1719396462223</updated>
+    </task>
+    <task id="LOCAL-00063" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719396693199</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1719396693199</updated>
+    </task>
+    <task id="LOCAL-00064" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719397279005</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1719397279005</updated>
+    </task>
+    <task id="LOCAL-00065" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719397292027</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1719397292027</updated>
+    </task>
+    <task id="LOCAL-00066" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719397389518</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1719397389518</updated>
+    </task>
+    <task id="LOCAL-00067" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719398062128</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1719398062128</updated>
+    </task>
+    <task id="LOCAL-00068" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719398437594</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1719398437594</updated>
+    </task>
+    <task id="LOCAL-00069" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719398665038</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1719398665038</updated>
+    </task>
+    <task id="LOCAL-00070" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719399629227</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1719399629227</updated>
+    </task>
+    <task id="LOCAL-00071" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719399850607</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1719399850607</updated>
+    </task>
+    <task id="LOCAL-00072" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719413447668</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1719413447668</updated>
+    </task>
+    <task id="LOCAL-00073" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719413537871</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1719413537871</updated>
+    </task>
+    <task id="LOCAL-00074" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719413992187</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1719413992187</updated>
+    </task>
+    <task id="LOCAL-00075" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719414254903</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1719414254903</updated>
+    </task>
+    <task id="LOCAL-00076" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719414465959</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1719414465959</updated>
+    </task>
+    <task id="LOCAL-00077" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719414650754</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1719414650754</updated>
+    </task>
+    <task id="LOCAL-00078" summary="[+]修改Pages布局">
+      <option name="closed" value="true" />
+      <created>1719414980374</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1719414980374</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[+] 修改Pages布局" />
+    <MESSAGE value="[+]修改Pages布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="[+]修改Pages布局" />
+  </component>
+</project>
