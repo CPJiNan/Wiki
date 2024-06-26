@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-export const zh_CN = defineConfig({
+export default defineConfig({
   base: '/Wiki/',
   lang: 'zh-CN',
   title: "AkariPlugins 澄明系列插件",
