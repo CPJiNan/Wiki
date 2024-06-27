@@ -83,7 +83,7 @@ Example:
 - Display
 
   `等级组的展示名`
-  
+
   > Example 是示例配置中等级组的编辑名。
 
 - Source
@@ -97,43 +97,43 @@ Example:
 
   `等级组追踪相关设置`
 
-  - Enable
+    - Enable
 
-    `是否允许该等级组被追踪`
+      `是否允许该等级组被追踪`
 
-  - Condition
+    - Condition
 
-    `等级组的追踪条件`
+      `等级组的追踪条件`
 
-  - Action
+    - Action
 
-    `等级组的追踪后执行的动作`
+      `等级组的追踪后执行的动作`
 
 - Level
 
   `等级设置`
 
-  - Max
+    - Max
 
-    `最高等级`
+      `最高等级`
 
-  - Auto-Levelup
+    - Auto-Levelup
 
-    `当玩家未达到最高等级、拥有足够经验、符合目标等级升级条件时自动为玩家进行升级`
-  
-    `否则需玩家手动执行/akarilevel levelup指令`
+      `当玩家未达到最高等级、拥有足够经验、符合目标等级升级条件时自动为玩家进行升级`
 
-  - Exp-Limit
+      `否则需玩家手动执行/akarilevel levelup指令`
 
-    `达到最大等级后不再获取经验`
+    - Exp-Limit
 
-  - Key
+      `达到最大等级后不再获取经验`
 
-    `关键等级设置`
-  
-    `只需对关键等级进行修改, 处于非关键等级时将自动读取上一个关键等级的信息`
+    - Key
 
-    `%level% -> 对应等级 (其中%level%是插件内置变量，无法应用于PlaceholderAPI)`
+      `关键等级设置`
+
+      `只需对关键等级进行修改, 处于非关键等级时将自动读取上一个关键等级的信息`
+
+      `%level% -> 对应等级 (其中%level%是插件内置变量，无法应用于PlaceholderAPI)`
 
 ## 关键等级设置示例
 
@@ -188,7 +188,7 @@ Key:
 > 升级至该等级需要玩家拥有 akarilevel.default 权限
 >
 > 升级至该等级会为玩家发送指定内容的 title、subtitle、actionbar 消息
-> 
+>
 > 更多条件及动作请见 Kether动作列表: https://kether.tabooproject.org/list.html
 
 ``` yaml
@@ -217,6 +217,7 @@ Key:
 > - 99级→100级(最高等级) 所需经验: 1100
 
 此外，如果您想使用十六进制颜色，请参考：
+
 ```
 title inline "{{ color '&{#4C88E4}Hex&{#98F5F9}Color' }}" by 10 20 10
 ```

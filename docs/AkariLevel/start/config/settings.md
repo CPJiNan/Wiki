@@ -178,14 +178,14 @@ PlaceholderAPI:
 
 - Name
 
-    `需要从对应插件中读取的属性名称`
+  `需要从对应插件中读取的属性名称`
   > 💡 注意事项
   > - AttributePlus 的属性名称是"属性默认名"而非"服务器属性名"
 
-    >  (摘自AttributePlus Wiki，服务器属性名尚待测试)
+      >  (摘自AttributePlus Wiki，服务器属性名尚待测试)
   > - SX-Attribute 的属性名称是其英文名而非 DiscernName
 
-    >  (即默认应填写 "ExpAddition" 而非"经验增幅")
+      >  (即默认应填写 "ExpAddition" 而非"经验增幅")
   > - OriginAttribute 默认读取 ExpAddon 为经验加成属性, 无需填写 Name 配置项
 
 - Formula
@@ -197,15 +197,15 @@ PlaceholderAPI:
   
   其中%exp%和%attribute%是插件内置变量，无法应用于PlaceholderAPI
   ```
-  
+
 - Source
 
   `所监听的 PlayerExpChangeEvent 来源`
 
   `只有该列表中的来源才能得到经验加成`
-  
+
   > 💡 注意事项
-  > 
+  >
   > 来源列表详见文档内 "开发 - 来源" 下内容
 
 #### PlaceholderAPI

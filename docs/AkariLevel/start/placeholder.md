@@ -19,4 +19,10 @@
 
 %AkariLevel_<等级组编辑名>_ExpProgressBar% - 玩家当前经验 / 升至下一级所需经验 的进度条
 %AkariLevel_<等级组编辑名>_LevelProgressBar% - 玩家当前等级 / 最高等级 的进度条
-``` 
+```
+
+---
+
+其中，可使用 `Trace` 代替 `<等级组编辑名>` 以获取玩家正在追踪的等级组相应变量。
+
+例如：`%AkariLevel_Trace_Level%`
