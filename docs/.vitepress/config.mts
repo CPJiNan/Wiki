@@ -31,7 +31,8 @@ export default defineConfig({
                             },
                             {text: '🎼️ 命令', link: '/AkariLevel/start/command'},
                             {text: '🚫 权限', link: '/AkariLevel/start/permission'},
-                            {text: '🏷 变量', link: '/AkariLevel/start/placeholder'}
+                            {text: '🏷 变量', link: '/AkariLevel/start/placeholder'},
+                            {text: '🎯 经验掉落', link: '/AkariLevel/start/drop'}
                         ]
                     },
                     {
