@@ -1,9 +1,11 @@
 # 📎 settings.yml
+
 > ❗ 不同版本间的配置文件可能会略有差异，请以实际生成配置为准
 
 > 🚫 进行重要操作前，请先进行备份以防数据丢失
 
 ---
+
 ``` yaml
 #     _    _              _ _                   _  #
 #    / \  | | ____ _ _ __(_) |    _____   _____| | #
@@ -131,15 +133,21 @@ Hook:
         Full: "■"
         Length: 10
 ```
+
 ---
+
 ## 配置注解
+
 ### Options
+
 - Config-Version
 
 `配置文件的版本，用于不同版本间配置的快捷迁移`
+
 - Check-Update
 
 `是否在插件有新版本时通知你 (是:true/否:false)`
+
 - Send-Metrics
 
 `是否将你服务器的部分信息上传至 bStats 用于 CPJiNan 的插件使用数据统计 (是:true/否:false)`
@@ -148,7 +156,9 @@ Hook:
 
 `是否开启调试模式 (是:true/否:false)`
 > 在调试模式下，插件将在控制台输出相关事件的详细信息，以便为插件测试提供帮助。
+
 ### Database
+
 - Method
 
 `存储方式 (JSON, CBOR, SQL)`
@@ -159,14 +169,23 @@ Hook:
 >当配置项"type"为"SQL"时，"uri"项将不会被读取；
 >
 >反之，当配置项"type"为"JSON"或"CBOR"时，"sql"项将不会被读取。
+
 - JSON `本地`
+
 > JSON相关存储设置
+
 - CBOR `本地`
+
 > CBOR相关存储设置
+
 - SQL `数据库`
+
 > SQL相关存储设置
+
 - REDIS `数据库`
+
 > REDIS相关存储设置
+
 ### Level
 
 - Auto-Levelup
@@ -175,18 +194,20 @@ Hook:
 当玩家未达到最高等级、拥有足够经验、符合目标等级条件时自动为玩家执行升级
 否则需玩家手动执行/akarilevel levelup指令
 ```
+
 - Exp-Limit
-```玩家达到最大等级后，自动清空玩家所拥有的经验值（等级保持不变）```
+  ```玩家达到最大等级后，自动清空玩家所拥有的经验值（等级保持不变）```
 - Vanilla-Exp-Bar
-```是否使原版经验条与AkariLevel的等级和经验进度同步```
+  ```是否使原版经验条与AkariLevel的等级和经验进度同步```
+
 > 安装 AkariLevel 后，原版经验将被插件接管。
 >
 > 同步操作是单向的，仅由 AkariLevel 向原版同步。即此配置项仅决定原版经验槽是否显示插件等级。
 
 > 开启时，原版等级将被修改为插件等级，原版经验进度将被修改为插件经验进度。
-> 
+>
 > 关闭时，原版等级与经验将固定不变。
-> 
+>
 > （该等级/经验进度是受其他插件影响的。如无其他插件修改玩家等级，玩家默认原版等级槽固定为0。）
 
 > 无论此项是否开启，经验槽都不会受到原版经验变动影响。
@@ -194,6 +215,7 @@ Hook:
 > 即在进行附魔等消耗原版经验的操作时，玩家等级不会改变。
 >
 > 如需让获得的原版经验流入 AkariLevel 经验中，请参考配置项 Vanilla-Exp-Rate
+
 - Vanilla-Exp-Rate
 
 ```原版经验转换为 AkariExp 的倍率 (类型为Double)```
@@ -208,21 +230,26 @@ Hook:
 > 当该数值为1.0时, 每获得1点原版经验, AkariExp将对应增加1点。
 >
 > 当该数值为1.5时, 一次性获得1点原版经验时, AkariExp将对应增加2点；一次性获得10点原版经验时, AkariExp将对应增加15点。
-> 
+>
 > 当该数值为2.0时, 每获得1点原版经验, AkariExp将对应增加2点。
 
 ### Hook
+
 #### MythicMobs
+
 - Drop-Name
 
 ```经验在MythicMobs中的掉落物名称 (默认为AkariExp)```
 
 你可以在Mythicmobs中配置AkariExp经验的掉落：
+
 ``` yaml
 Drops:
   - AkariExp 经验值数量 掉落几率
 ```
+
 完整示例:
+
 ``` yaml
 示例怪物:
   Type: ZOMBIE
@@ -241,24 +268,29 @@ Drops:
   Modules:
     ThreatTable: true
 ```
+
 #### Attribute
+
 > 截至 3.0 版本该功能仅用于获取AttributePlus等插件的"经验加成"属性
+
 - Plugin
 
 ```使用的属性插件名称 (AttributePlus, SX-Attribute, OriginAttribute)```
+
 - Name
 
 ```需要从对应插件中读取的属性名称```
 > 💡 注意事项
 > - AttributePlus 的属性名称是"属性默认名"而非"服务器属性名"
 
->  (摘自AttributePlus Wiki，服务器属性名尚待测试)
-> - SX-Attribute 的属性名称是其英文名而非 DiscernName 
+    >  (摘自AttributePlus Wiki，服务器属性名尚待测试)
+> - SX-Attribute 的属性名称是其英文名而非 DiscernName
 
->  (即默认应填写 "ExpAddition" 而非"经验增幅")
+    >  (即默认应填写 "ExpAddition" 而非"经验增幅")
 > - OriginAttribute 默认读取 ExpAddon 为经验加成属性, 无需填写 Name 配置项
 
 - Formula
+
 > 经验计算公式 (JavaScript支持)
 >
 > %exp% -> 获得的经验值数量
@@ -268,15 +300,21 @@ Drops:
 > 其中%exp%和%attribute%是插件内置变量，无法应用于PlaceholderAPI
 
 - Source
+
 > 所监听的 PlayerExpChange 来源
 >
 > 只有属于该列表中的来源才能受到经验加成
 
 > 来源列表详见文档内 "开发 - 来源" 下内容
+
 #### PlaceholderAPI
+
 - Identifier
+
 > PlaceholderAPI的变量前缀
 >
 >默认为 AkariLevel 即 %AkariLevel_变量名称%
+
 - Progress-Bar
+
 > 经验条变量设置

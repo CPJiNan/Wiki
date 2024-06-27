@@ -1,5 +1,7 @@
 # 📦 API
+
 > com.github.cpjinan.plugin.akarilevel.api.AkariLevelAPI
+
 ``` kotlin
 /**
  * 获取玩家等级
