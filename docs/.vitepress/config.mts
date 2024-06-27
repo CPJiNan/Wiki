@@ -16,7 +16,7 @@ export default defineConfig({
                     {text: '🏠 首页', link: '/AkariLevel/'},
                     {
                         text: '🔥 开始',
-                        collapsed: false,
+                        collapsed: true,
                         items: [
                             {text: '✨ 安装', link: '/AkariLevel/start/install'},
                             {
