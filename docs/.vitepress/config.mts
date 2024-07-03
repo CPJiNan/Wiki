@@ -19,6 +19,7 @@ export default defineConfig({
                         collapsed: true,
                         items: [
                             {text: '✨ 安装', link: '/AkariLevel/start/install'},
+                            {text: '❗ 版本迁移', link: '/AkariLevel/start/migration'},
                             {
                                 text: '📃 配置',
                                 link: '/AkariLevel/start/config/',
