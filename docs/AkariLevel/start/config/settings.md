@@ -62,7 +62,11 @@ Database:
 
 # 等级组追踪设置
 Trace:
+  # 是否保留原版等级系统
+  # 该功能开启后将不会取消原版经验变化事件，但需注意关闭等级组的追踪功能
+  Vanilla: false
   # 失去追踪焦点时返回的默认等级组 (此项留空则不会进行追踪)
+  # Default: "Example"
   Default: ""
   # 是否在玩家每次进入服务器时重置追踪的等级组
   Auto-Reset: true
@@ -152,6 +156,12 @@ PlaceholderAPI:
   `存储方式 (JSON, CBOR, SQL)`
 
 ### Trace
+
+- Vanilla
+
+  `是否保留原版等级系统`
+
+  `该功能开启后将不会取消原版经验变化事件，但需注意关闭等级组的追踪功能`
 
 - Default
 
