@@ -11,7 +11,7 @@
 | MCBBS 纪念版 | https://mcbbs2.net/thread-423-1-1.html                 |
 
 ## KalpaDungeon
-**<font color=gray>基于 DungeonPlus 的脚本功能插件</font>** _<font color=gray>by 晓劫</font>_
+**<font color=gray>基于 DungeonPlus 的脚本拓展插件</font>** _<font color=gray>by 晓劫</font>_
 
 | 插件名称   | KalpaDungeon                    |
 |--------|---------------------------------|
