@@ -42,7 +42,8 @@ export default defineConfig({
                         items: [
                             {text: '❗ 重要地址', link: '/AkariLevel/about/link'},
                             {text: '📈 数据统计', link: '/AkariLevel/about/metrics'},
-                            {text: '🎁 支持作者', link: '/AkariLevel/about/donate'}
+                            {text: '🎁 支持作者', link: '/AkariLevel/about/donate'},
+                            {text: '🔗 友情链接', link: '/AkariLevel/about/friends'}
                         ]
                     },
                     {
@@ -60,5 +61,14 @@ export default defineConfig({
         socialLinks: [
             {icon: 'github', link: 'https://github.com/CPJiNan'}
         ]
+    },
+    vite: {
+        css: {
+            preprocessorOptions: {
+                css: {
+                    additionalData: `@import 'theme/font.css';`
+                }
+            }
+        }
     }
 })
