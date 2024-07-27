@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('/docs/fonts/fusion-pixel-font-12px-monospaced.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Fusion Pixel 12px Monospaced zh_hans', sans-serif;
+}
