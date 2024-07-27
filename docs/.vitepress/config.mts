@@ -61,14 +61,5 @@ export default defineConfig({
         socialLinks: [
             {icon: 'github', link: 'https://github.com/CPJiNan'}
         ]
-    },
-    vite: {
-        css: {
-            preprocessorOptions: {
-                css: {
-                    additionalData: `@import './theme/font.css';`
-                }
-            }
-        }
     }
 })
