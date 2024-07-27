@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'CustomFont';
-    src: url('/Wiki/fonts/fusion-pixel-font-12px-monospaced.ttf') format('truetype');
+    src: url('../fonts/fusion-pixel-font-12px-monospaced.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
