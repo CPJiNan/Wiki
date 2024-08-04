@@ -17,6 +17,7 @@ Example:
     # - "VANILLA_EXP_CHANGE"
     Subscribe:
       - "MYTHICMOBS_DROP_EXP"
+      - "TEAM_SHARE_EXP"
   # 追踪设置
   # 当玩家追踪某个等级组时，将在原版经验条上显示其经验进度
   Trace:
@@ -75,8 +76,6 @@ Example:
           - subtitle inline "{{ papi %AkariLevel_Example_LastLevelName% }} §7→ {{ papi %AkariLevel_Example_LevelName% }}" by 10 20 10
           - actionbar inline "§8[ §7{{ papi %AkariLevel_Example_Exp% }} §8/ §7{{ papi %AkariLevel_Example_NextLevelExp% }} §8]"
 ```
-
----
 
 ## 配置注解
 

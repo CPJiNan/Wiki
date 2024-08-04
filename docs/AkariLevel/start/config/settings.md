@@ -4,8 +4,6 @@
 
 > 🚫 进行重要操作前，请先进行备份以防数据丢失
 
----
-
 ``` yaml
 #     _    _              _ _                   _  #
 #    / \  | | ____ _ _ __(_) |    _____   _____| | #
@@ -26,7 +24,7 @@
 # 全局设置
 Options:
   # 配置文件版本
-  Config-Version: 3
+  Config-Version: 4
   # 检查版本更新
   Check-Update: true
   # 启用 bStats 统计
@@ -70,6 +68,27 @@ Trace:
   Default: ""
   # 是否在玩家每次进入服务器时重置追踪的等级组
   Auto-Reset: true
+
+########
+# Team #
+########
+
+# 队伍经验共享设置
+Team:
+  # 是否启用
+  Enable: false
+  # 组队插件 (DungeonPlus)
+  Plugin: DungeonPlus
+  # 参与共享的经验来源
+  Source:
+    - "MYTHICMOBS_DROP_EXP"
+  # 待分配的经验池总额 (JavaScript 支持)
+  # %exp% -> 分配前的经验数额
+  Total: "%exp% * 1"
+  # 队长与队员各自的分配权重，实际所获经验 = 经验池总额 * ( 个人权重 / 队伍权重总和 )
+  Weight:
+    Leader: 1
+    Member: 1
 
 #############
 # Attribute #
@@ -116,8 +135,6 @@ PlaceholderAPI:
       Full: "■"
       Length: 10
 ```
-
----
 
 ## 配置注解
 
@@ -173,6 +190,55 @@ PlaceholderAPI:
 - Auto-Reset
 
   `是否在玩家登入服务器时重置追踪焦点至默认等级组`
+
+### Team
+
+- Enable
+
+  `是否启用队伍经验共享`
+
+
+- Plugin
+
+  `使用的组队插件名称 (DungeonPlus)`
+
+
+- Source
+
+  `所监听的 PlayerExpChangeEvent 来源`
+
+  `只有该列表中的来源才能被队伍成员共享`
+
+
+- Total
+
+  `待分配的经验池总额 (JavaScript 支持)`
+
+  ```
+  %exp% -> 分配前的经验数额
+  
+  其中%exp%是插件内置变量，无法应用于PlaceholderAPI
+  ```
+
+
+- Weight
+
+  `队长与队员各自的分配权重`
+
+  `实际所获经验 = 经验池总额 * ( 个人权重 / 队伍权重总和 )`
+
+  ```
+  例如：
+    Total: "%exp% * 2"
+    Weight:
+      Leader: 2
+      Member: 1
+  假设有四名玩家在同一个队伍中，此时 队伍权重总和 = 2 + 1 * 3 = 5
+  其中任意一名玩家击杀了一只掉落 10 AkariExp 的 MythicMobs 怪物。
+  待分配的经验池总额 = 10 * 2 = 20
+  队长实际所获经验 = 20 * ( 2 / 5 ) = 8
+  队员实际所获经验 = 20 * ( 1 / 5 ) = 4
+  ```
 
 ### Attribute
 
