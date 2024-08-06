@@ -12,6 +12,9 @@ export default defineConfig({
         search: {
             provider: 'local'
         },
+        editLink: {
+            pattern: 'https://github.com/CPJiNan/Wiki/tree/master/docs/:path'
+        },
         sidebar: [
             {
                 text: 'AkariLevel',
