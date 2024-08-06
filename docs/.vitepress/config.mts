@@ -9,6 +9,9 @@ export default defineConfig({
             {text: '首页', link: '/'},
             {text: 'AkariLevel', link: '/AkariLevel/'}
         ],
+        search: {
+            provider: 'local'
+        },
         sidebar: [
             {
                 text: 'AkariLevel',
