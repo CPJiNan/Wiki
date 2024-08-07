@@ -20,7 +20,6 @@ export default defineConfig({
                 text: 'AkariLevel',
                 items: [
                     {text: '🏠 首页', link: '/AkariLevel/'},
-                    {text: '📖 Plugin Translation Guide', link: '/AkariLevel/translate'},
                     {
                         text: '🔥 开始',
                         collapsed: true,
@@ -61,7 +60,8 @@ export default defineConfig({
                             {text: '📍 事件', link: '/AkariLevel/develop/event'},
                             {text: '📨 来源', link: '/AkariLevel/develop/source'}
                         ]
-                    }
+                    },
+                    {text: '📖 Plugin Translation Guide', link: '/AkariLevel/translate'},
                 ]
             }
         ],
