@@ -27,6 +27,8 @@ Options:
   Config-Version: 4
   # 检查版本更新
   Check-Update: true
+  # OP 版本更新通知
+  OP-Notify: true
   # 启用 bStats 统计
   Send-Metrics: true
   # 启用调试模式
@@ -148,6 +150,11 @@ PlaceholderAPI:
 - Check-Update
 
   `是否在检测到插件有新版本时进行通知`
+
+
+- OP-Notify
+
+  `是否在检测到插件有新版本的情况下在 OP 每次登入服务器时对其进行通知`
 
 
 - Send-Metrics

@@ -8,13 +8,15 @@ The plugin automatically generates language files based on the user's system lan
 
 If your language is not yet supported, you can help with the translation.
 
-Translation work includes the language files in the `lang` folder and comments in `level/Example.yml` and `settings.yml`.
+Translation work includes the language files in the `lang` folder and comments in `level/Example.yml` and
+`settings.yml`.
 
 If you are not familiar with Chinese, you can translate from the English version into your language.
 
 The names of the language files in the `lang` folder should correspond to the respective language codes,
 
-and the `Language` setting in the `level` configuration file should match the language of the generated configuration file.
+and the `Language` setting in the `level` configuration file should match the language of the generated configuration
+file.
 
 For example, the English language files can use configuration files with Chinese comments:
 
@@ -28,4 +30,5 @@ Plugin-Disable: '&8[&3Akari&bLevel&8] &bInfo &8| &6Plugin disabled.'
 Plugin-Reloaded: '&8[&3Akari&bLevel&8] &bInfo &8| &6Plugin reloaded.'
 ```
 
-Additionally, you can also leave a comment at the top of the language file in the `lang` folder with your name as the contributor of the language file.
+Additionally, you can also leave a comment at the top of the language file in the `lang` folder with your name as the
+contributor of the language file.
