@@ -24,7 +24,7 @@
 # 全局设置
 Options:
   # 配置文件版本
-  Config-Version: 4
+  Config-Version: 5
   # 检查版本更新
   Check-Update: true
   # OP 版本更新通知
