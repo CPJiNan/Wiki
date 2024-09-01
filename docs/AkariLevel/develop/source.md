@@ -11,7 +11,7 @@ AkariLevel 中定义了部分事件来源：
     - MYTHICMOBS_DROP_EXP
     - VANILLA_EXP_CHANGE
     - TEAM_SHARE_EXP
-  
+
 
 - PlayerLevelChangeEvent
     - COMMAND_ADD_LEVEL
