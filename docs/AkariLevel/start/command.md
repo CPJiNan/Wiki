@@ -27,26 +27,27 @@
 
 ## 命令参数
 
-> 命令参数格式:
->
-> `-k` `-k v` `-k=v` `--key` `--key value` `--key=value`
->
-> 其中 `k` 及 `key` 是参数名，`v` 及 `value` 是参数值
+命令参数格式:
+
+`-k` `-k v` `-k=v` `--key` `--key value` `--key=value`
+
+（其中 k 及 key 是参数名，v 及 value 是参数值）
 
 ```
-/akarilevel exp 子命令的通用参数:
+/akarilevel exp
     · silent - 关闭命令提示
     · source - PlayerExpChangeEvent 经验来源
-        /akarilevel exp add 子命令的特殊参数
+
+/akarilevel exp add
         · sourceCheck - 检查指定经验来源是否在等级组订阅来源列表中
         · toAllLevelGroup - 将该经验给予操作的等级组参数由指定等级组更改为所有等级组 (带有来源检查)
         
-/akarilevel level 子命令的通用参数:
+/akarilevel level
     · silent - 关闭命令提示
     · noAction - 修改等级而不执行对应等级的 Kether 动作
     · source - PlayerLevelChangeEvent 等级来源
     
-/akarilevel trace 子命令的通用参数:
+/akarilevel trace
     · silent - 关闭命令提示
 ```
 
@@ -58,6 +59,6 @@
 /akarilevel exp add PlayerName Example 100 --source=VANILLA_EXP_CHANGE --sourceCheck
 ```
 
-该命令将会检查 Example 等级组是否订阅了 VANILLA_EXP_CHANGE 经验来源。
+1. 该命令将会检查 Example 等级组是否订阅了 `VANILLA_EXP_CHANGE` 经验来源。
 
-如果指定来源在订阅列表中，则会为玩家 PlayerName 增加 100 点 Example 等级组的经验。否则将不会执行经验给予操作。
+2. 如果指定来源在订阅列表中，则会为玩家 PlayerName 增加 100 点 Example 等级组的经验。否则将不会执行经验给予操作。

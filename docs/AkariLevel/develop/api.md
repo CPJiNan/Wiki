@@ -29,7 +29,7 @@
      * @param levelGroup 等级组编辑名
      * @return 等级数值
      */
-    fun getPlayerLevel(player: Player, levelGroup: String): Int = getLevel(player, levelGroup)
+    fun getPlayerLevel(player: Player, levelGroup: String): Long = getLevel(player, levelGroup)
 
     /**
      * 获取指定玩家某等级组下的经验
@@ -37,7 +37,7 @@
      * @param levelGroup 等级组编辑名
      * @return 经验数值
      */
-    fun getPlayerExp(player: Player, levelGroup: String): Int = getExp(player, levelGroup)
+    fun getPlayerExp(player: Player, levelGroup: String): Long = getExp(player, levelGroup)
 
     /**
      * 设置指定玩家某等级组下的等级并触发该等级升级执行动作
@@ -46,7 +46,7 @@
      * @param amount 等级数值
      * @param source PlayerLevelChangeEvent 事件来源
      */
-    fun setPlayerLevel(player: Player, levelGroup: String, amount: Int, source: String) {
+    fun setPlayerLevel(player: Player, levelGroup: String, amount: Long, source: String) {
         setLevel(player, levelGroup, amount, source)
         runAction(player, levelGroup, amount)
         refreshLevel(player, levelGroup)
@@ -59,8 +59,8 @@
      * @param amount 等级数值
      * @param source PlayerLevelChangeEvent 事件来源
      */
-    fun addPlayerLevel(player: Player, levelGroup: String, amount: Int, source: String) {
-        val targetLevel = getLevel(player, levelGroup) + amount
+    fun addPlayerLevel(player: Player, levelGroup: String, amount: Long, source: String) {
+        val targetLevel = (getLevel(player, levelGroup) + amount).coerceAtMost(getLevelGroupData(levelGroup).maxLevel)
         setLevel(player, levelGroup, targetLevel, source)
         runAction(player, levelGroup, targetLevel)
         refreshLevel(player, levelGroup)
@@ -73,7 +73,7 @@
      * @param amount 等级数值
      * @param source PlayerLevelChangeEvent 事件来源
      */
-    fun removePlayerLevel(player: Player, levelGroup: String, amount: Int, source: String) {
+    fun removePlayerLevel(player: Player, levelGroup: String, amount: Long, source: String) {
         val targetLevel = (getLevel(player, levelGroup) - amount).coerceAtLeast(0)
         setLevel(player, levelGroup, targetLevel, source)
         runAction(player, levelGroup, targetLevel)
@@ -87,7 +87,7 @@
      * @param amount 等级数值
      * @param source PlayerLevelChangeEvent 事件来源
      */
-    fun setPlayerLevelWithoutAction(player: Player, levelGroup: String, amount: Int, source: String) {
+    fun setPlayerLevelWithoutAction(player: Player, levelGroup: String, amount: Long, source: String) {
         setLevel(player, levelGroup, amount, source)
         refreshLevel(player, levelGroup)
     }
@@ -99,7 +99,7 @@
      * @param amount 等级数值
      * @param source PlayerLevelChangeEvent 事件来源
      */
-    fun addPlayerLevelWithoutAction(player: Player, levelGroup: String, amount: Int, source: String) {
+    fun addPlayerLevelWithoutAction(player: Player, levelGroup: String, amount: Long, source: String) {
         setLevel(player, levelGroup, getLevel(player, levelGroup) + amount, source)
         refreshLevel(player, levelGroup)
     }
@@ -111,7 +111,7 @@
      * @param amount 等级数值
      * @param source PlayerLevelChangeEvent 事件来源
      */
-    fun removePlayerLevelWithoutAction(player: Player, levelGroup: String, amount: Int, source: String) {
+    fun removePlayerLevelWithoutAction(player: Player, levelGroup: String, amount: Long, source: String) {
         setLevel(player, levelGroup, (getLevel(player, levelGroup) - amount).coerceAtLeast(0), source)
         refreshLevel(player, levelGroup)
     }
@@ -123,7 +123,7 @@
      * @param amount 经验数值
      * @param source PlayerExpChangeEvent 事件来源
      */
-    fun setPlayerExp(player: Player, levelGroup: String, amount: Int, source: String) {
+    fun setPlayerExp(player: Player, levelGroup: String, amount: Long, source: String) {
         setExp(player, levelGroup, amount, source)
         refreshLevel(player, levelGroup)
     }
@@ -134,8 +134,8 @@
      * @param amount 经验数值
      * @param source PlayerExpChangeEvent 事件来源
      */
-    fun addPlayerExp(player: Player, amount: Int, source: String) {
-        LevelAPI.getLevelGroupNames().forEach {
+    fun addPlayerExp(player: Player, amount: Long, source: String) {
+        getLevelGroupNames().forEach {
             if (source in getLevelGroupData(it).subscribeSource) {
                 setExp(player, it, getExp(player, it) + amount, source)
                 refreshLevel(player, it)
@@ -150,7 +150,7 @@
      * @param amount 经验数值
      * @param source PlayerExpChangeEvent 事件来源
      */
-    fun addPlayerExp(player: Player, levelGroup: String, amount: Int, source: String) {
+    fun addPlayerExp(player: Player, levelGroup: String, amount: Long, source: String) {
         if (source in getLevelGroupData(levelGroup).subscribeSource) {
             setExp(player, levelGroup, getExp(player, levelGroup) + amount, source)
             refreshLevel(player, levelGroup)
@@ -164,7 +164,7 @@
      * @param amount 经验数值
      * @param source PlayerExpChangeEvent 事件来源
      */
-    fun addPlayerExpForce(player: Player, levelGroup: String, amount: Int, source: String) {
+    fun addPlayerExpForce(player: Player, levelGroup: String, amount: Long, source: String) {
         setExp(player, levelGroup, getExp(player, levelGroup) + amount, source)
         refreshLevel(player, levelGroup)
     }
@@ -176,7 +176,7 @@
      * @param amount 经验数值
      * @param source PlayerExpChangeEvent 事件来源
      */
-    fun removePlayerExp(player: Player, levelGroup: String, amount: Int, source: String) {
+    fun removePlayerExp(player: Player, levelGroup: String, amount: Long, source: String) {
         setExp(player, levelGroup, (getExp(player, levelGroup) - amount).coerceAtLeast(0), source)
         refreshLevel(player, levelGroup)
     }
@@ -233,7 +233,7 @@
      * @param levelGroup 等级组编辑名
      * @param level 等级数值
      */
-    fun runPlayerLevelAction(player: Player, levelGroup: String, level: Int) {
+    fun runPlayerLevelAction(player: Player, levelGroup: String, level: Long) {
         runAction(player, levelGroup, level)
     }
 
@@ -276,7 +276,7 @@
 
 > com.github.cpjinan.plugin.akarilevel.api.LevelAPI
 
-```
+``` kotlin
     /**
      * 获取等级组配置列表
      * @return 等级组配置列表
@@ -307,7 +307,7 @@
      * @param levelGroup 等级组编辑名
      * @return 关键等级数据列表
      */
-    fun getKeyLevelData(levelGroup: String): HashMap<Int, LevelData> = getKeyLvlData(levelGroup)
+    fun getKeyLevelData(levelGroup: String): HashMap<Long, LevelData> = getKeyLvlData(levelGroup)
 
     /**
      * 获取指定等级组某等级数据
@@ -315,7 +315,7 @@
      * @param level 等级
      * @return 等级数据
      */
-    fun getLevelData(levelGroup: String, level: Int): LevelData = getLvlData(levelGroup, level)
+    fun getLevelData(levelGroup: String, level: Long): LevelData = getLvlData(levelGroup, level)
 
     /**
      * 获取指定等级组某等级名称
@@ -323,7 +323,7 @@
      * @param level 等级
      * @return 等级名称
      */
-    fun getLevelName(levelGroup: String, level: Int): String = getLvlName(levelGroup, level)
+    fun getLevelName(levelGroup: String, level: Long): String = getLvlName(levelGroup, level)
 
     /**
      * 获取指定等级组升级到某等级所需经验
@@ -331,7 +331,7 @@
      * @param level 等级
      * @return 等级名称
      */
-    fun getLevelExp(levelGroup: String, level: Int): Int = getLvlExp(levelGroup, level)
+    fun getLevelExp(levelGroup: String, level: Long): Long = getLvlExp(levelGroup, level)
 
     /**
      * 获取指定等级组升级到某等级所需条件列表
@@ -339,7 +339,7 @@
      * @param level 等级
      * @return 升级条件列表
      */
-    fun getLevelCondition(levelGroup: String, level: Int): List<String> = getLvlCondition(levelGroup, level)
+    fun getLevelCondition(levelGroup: String, level: Long): List<String> = getLvlCondition(levelGroup, level)
 
     /**
      * 获取指定等级组升级到某等级执行动作列表
@@ -347,7 +347,7 @@
      * @param level 等级
      * @return 升级执行动作列表
      */
-    fun getLevelAction(levelGroup: String, level: Int): List<String> = getLvlAction(levelGroup, level)
+    fun getLevelAction(levelGroup: String, level: Long): List<String> = getLvlAction(levelGroup, level)
 ```
 
 ---
@@ -356,7 +356,7 @@
 
 > com.github.cpjinan.plugin.akarilevel.api.DataAPI
 
-```
+``` kotlin
     /**
      * 获取指定表中某索引下某键的值
      * @param table 表名
