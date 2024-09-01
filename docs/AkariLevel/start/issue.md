@@ -55,7 +55,7 @@ API，能让其他开发者更加轻松地开发出自己的动作语句。
 
 想要在 Kether 中执行命令，你可以尝试像这样写：
 
-``` kether
+```
 command inline "give {{sender}} apple 1" as op
 ```
 
