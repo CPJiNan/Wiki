@@ -62,7 +62,7 @@ command inline "give {{ sender }} apple 1" as op
 1. `inline` 是内联脚本语句，可以在 `{{ 代码块 }}` 中执行另一条语句并返回结果。
 2. `sender` 是一条语句，它会返回脚本执行者的名称。
 3. `papi "%player_name%"` 是一条语句，它会返回变量 `%player_name%` 的值。
-   你可以使用内联脚本在发送消息或执行命令时调用它，例如：`title inline "玩家名称：{{ papi %player_name% }}` 。
+   你可以使用内联脚本在发送消息或执行命令时调用它，例如：`title inline "玩家名称：{{ papi %player_name% }}"` 。
 4. 更多的脚本语句可以在 Kether 动作列表 https://kether.tabooproject.org/list.html 中被找到。
 
 ## Q5: Kether 如何使用十六进制颜色(HexColor)？
