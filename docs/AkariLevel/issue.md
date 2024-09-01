@@ -75,3 +75,36 @@ A5: 使用 `color` 语句处理文本，例如:
 ``` yaml
 tell inline "{{ color '&{#4C88E4}Hex&{#98F5F9}Color' }}"
 ```
+
+## Q6: Kether 如何判断条件执行不同语句？
+A6: 使用 `if-else` 语句进行更复杂的逻辑判断，例如：
+
+``` yaml
+    Condition:
+      - |
+        if permission level.premium then {
+          if xxx then {
+            xxx
+            true
+          } else {
+            xxx
+            false
+          }
+        } else {
+          if xxx then {
+            xxx
+            true
+          } else {
+            xxx
+            false
+          }
+        }
+```
+
+## Q7: 设置升级经验时如何使用 JavaScript 脚本进行四舍五入？
+A7: 使用 `toFixed()` 函数进行四舍五入运算，例如：
+
+``` javascript
+(12.5).toFixed()
+(Math.sin(1)*100).toFixed()
+```

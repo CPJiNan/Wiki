@@ -20,6 +20,7 @@ export default defineConfig({
                 text: 'AkariLevel',
                 items: [
                     {text: '🏠 首页', link: '/AkariLevel/'},
+                    {text: '❓ 常见问题', link: '/AkariLevel/issue'},
                     {
                         text: '🔥 开始',
                         collapsed: true,
@@ -27,8 +28,7 @@ export default defineConfig({
                             {text: '🎼️ 命令', link: '/AkariLevel/start/command'},
                             {text: '🚫 权限', link: '/AkariLevel/start/permission'},
                             {text: '🏷 变量', link: '/AkariLevel/start/placeholder'},
-                            {text: '🎯 经验掉落', link: '/AkariLevel/start/drop'},
-                            {text: '❓ 常见问题', link: '/AkariLevel/start/issue'}
+                            {text: '🎯 经验掉落', link: '/AkariLevel/start/drop'}
                         ]
                     },
                     {
