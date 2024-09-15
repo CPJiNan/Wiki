@@ -6,8 +6,7 @@ export default defineConfig({
     description: "欢迎查阅 AkariPlugins 公开文档",
     themeConfig: {
         nav: [
-            {text: '首页', link: '/'},
-            {text: 'AkariLevel', link: '/AkariLevel/'}
+            {text: '首页', link: '/'}
         ],
         search: {
             provider: 'local'
@@ -48,6 +47,12 @@ export default defineConfig({
                             {text: '📨 来源', link: '/AkariLevel/develop/source'}
                         ]
                     }
+                ]
+            },
+            {
+                text: 'AkariArtifact',
+                items: [
+                    {text: '🏠 首页', link: '/AkariArtifact/'}
                 ]
             }
         ],
