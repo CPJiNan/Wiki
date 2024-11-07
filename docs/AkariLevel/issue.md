@@ -77,6 +77,7 @@ tell inline "{{ color '&{#4C88E4}Hex&{#98F5F9}Color' }}"
 ```
 
 ## Q6: Kether 如何判断条件执行不同语句？
+
 A6: 使用 `if-else` 语句进行更复杂的逻辑判断，例如：
 
 ``` yaml
@@ -102,6 +103,7 @@ A6: 使用 `if-else` 语句进行更复杂的逻辑判断，例如：
 ```
 
 ## Q7: 设置升级经验时如何使用 JavaScript 脚本进行四舍五入？
+
 A7: 使用 `toFixed()` 函数进行四舍五入运算，例如：
 
 ``` javascript

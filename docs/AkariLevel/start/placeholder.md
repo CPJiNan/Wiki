@@ -2,6 +2,7 @@
 
 ```
 %AkariLevel_<等级组编辑名>_Display% - 等级组展示名
+%AkariLevel_<等级组编辑名>_MaxLevel% - 等级组最高等级
 
 %AkariLevel_<等级组编辑名>_Level% - 玩家当前等级
 %AkariLevel_<等级组编辑名>_LastLevel% - 玩家当前等级的上一个等级
@@ -19,6 +20,9 @@
 
 %AkariLevel_<等级组编辑名>_ExpProgressBar% - 玩家当前经验 / 升至下一级所需经验 的进度条
 %AkariLevel_<等级组编辑名>_LevelProgressBar% - 玩家当前等级 / 最高等级 的进度条
+
+%AkariLevel_<等级组编辑名>_ExpProgressPercent% - 玩家当前经验 / 升至下一级所需经验 的进度百分比 (0 到 100 之间的整数)
+%AkariLevel_<等级组编辑名>_LevelProgressPercent% - 玩家当前等级 / 最高等级 的进度百分比 (0 到 100 之间的整数)
 ```
 
 ---
