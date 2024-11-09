@@ -6,7 +6,8 @@ export default defineConfig({
     description: "欢迎查阅 AkariPlugins 公开文档",
     themeConfig: {
         nav: [
-            {text: '首页', link: '/'}
+            {text: '首页', link: '/'},
+            {text: '动态', link: 'https://cpjinan.github.io/Blog/'}
         ],
         search: {
             provider: 'local'
