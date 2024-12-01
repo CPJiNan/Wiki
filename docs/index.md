@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: 季楠的个人文档
+  name: 季楠的文档
   tagline: 欢迎查阅季楠的个人文档
   actions:
     - theme: brand
