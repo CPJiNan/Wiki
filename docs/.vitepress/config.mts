@@ -4,9 +4,6 @@ export default defineConfig({
     base: '/Wiki/',
     title: "季楠的文档",
     description: "欢迎查阅季楠的个人文档",
-    head: [
-        ['link', {rel: 'icon', href: '/favicon.ico'}]
-    ],
     themeConfig: {
         nav: [
             {text: '首页', link: '/'},
