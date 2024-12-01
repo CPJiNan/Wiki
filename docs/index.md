@@ -3,11 +3,11 @@
 layout: home
 
 hero:
-  name: AkariPlugins 澄明系列插件文档
-  tagline: 欢迎查阅 AkariPlugins 公开文档
+  name: 季楠的个人文档
+  tagline: 欢迎查阅季楠的个人文档
   actions:
     - theme: brand
-      text: 插件文档
+      text: 开始
       link: /AkariLevel
     - theme: alt
       text: Github
