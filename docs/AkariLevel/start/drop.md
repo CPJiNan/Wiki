@@ -18,6 +18,7 @@ Drops:
   Drops:
   - AkariExp.Example 10 1
   - AkariExp.Example 5 0.5
+  - AkariExp.Example 5~10 0.5
   Options:
     MovementSpeed: 0.1
     AlwaysShowName: true
