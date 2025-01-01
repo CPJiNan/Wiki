@@ -20,11 +20,9 @@ export default {
     // ...
   },
   setup() {
-    // 获取前言和路由
     const { frontmatter } = toRefs(useData());
     const route = useRoute();
-
-    // 评论组件 - https://giscus.app/
+    
     giscusTalk({
           repo: 'CPJiNan/Wiki',
           repoId: 'R_kgDOMHbYuQ',
