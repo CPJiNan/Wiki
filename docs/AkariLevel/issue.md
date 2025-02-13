@@ -42,13 +42,9 @@ LevelGroup:
 
 该等级组的编辑名是 `LevelGroup` 而非 `CustomLevel` 或 `等级组展示名` 。
 
-## Q3: 安装 AkariLevel 后 DS系列插件(星之插件) 的 UI 界面失效了怎么办？
+## Q3: Kether 是什么？Kether 怎么以 OP 权限执行命令？
 
-A3: 请使用解压软件打开 `AkariLevel.jar`，删除其中的 `kotlin` 、`kotlin1922` 文件夹并保存。
-
-## Q4: Kether 是什么？Kether 怎么以 OP 权限执行命令？
-
-A4: Kether 是 TabooLib 框架中内置的脚本语言，由 海螺先生 创造。
+A3: Kether 是 TabooLib 框架中内置的脚本语言，由 海螺先生 创造。
 
 可以轻松实现诸多功能（如：发送动作栏或标题信息、改变玩家游戏模式、获取变量等等），它还拥有良好的拓展
 API，能让其他开发者更加轻松地开发出自己的动作语句。
@@ -68,17 +64,17 @@ command inline "give {{ sender }} apple 1" as op
    ```
 4. 更多的脚本语句可以在 Kether 动作列表 https://kether.tabooproject.org/list.html 中被找到。
 
-## Q5: Kether 如何使用十六进制颜色(HexColor)？
+## Q4: Kether 如何使用十六进制颜色(HexColor)？
 
-A5: 使用 `color` 语句处理文本，例如:
+A4: 使用 `color` 语句处理文本，例如:
 
 ``` yaml
 tell inline "{{ color '&{#4C88E4}Hex&{#98F5F9}Color' }}"
 ```
 
-## Q6: Kether 如何判断条件执行不同语句？
+## Q5: Kether 如何判断条件执行不同语句？
 
-A6: 使用 `if-else` 语句进行更复杂的逻辑判断，例如：
+A5: 使用 `if-else` 语句进行更复杂的逻辑判断，例如：
 
 ``` yaml
     Condition:
@@ -102,9 +98,9 @@ A6: 使用 `if-else` 语句进行更复杂的逻辑判断，例如：
         }
 ```
 
-## Q7: 设置升级经验时如何使用 JavaScript 脚本进行四舍五入？
+## Q6: 设置升级经验时如何使用 JavaScript 脚本进行四舍五入？
 
-A7: 使用 `toFixed()` 函数进行四舍五入运算，例如：
+A6: 使用 `toFixed()` 函数进行四舍五入运算，例如：
 
 ``` javascript
 (12.5).toFixed()
