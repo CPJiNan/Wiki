@@ -11,12 +11,12 @@
 - 支持设置等级组特定倍率
 - 支持永久和临时加成
 - 支持多语言系统
-- 支持PlaceholderAPI变量
-- 支持bStats统计
+- 支持 PlaceholderAPI 变量
+- 支持 bStats 统计
 
-## PlaceholderAPI变量
+## PlaceholderAPI 变量
 
-本插件提供以下PlaceholderAPI变量：
+本插件提供以下 PlaceholderAPI 变量：
 
 - `%expboostqwq_player_multiplier%` - 显示玩家当前的个人加成倍率
 - `%expboostqwq_player_duration%` - 显示玩家个人加成的剩余时间（秒）
@@ -93,7 +93,7 @@ language:
 
 ## 统计
 
-本插件使用bStats进行匿名统计，可以在配置文件中关闭。
+本插件使用 bStats 进行匿名统计，可以在配置文件中关闭。
 [查看统计信息](https://bstats.org/plugin/bukkit/ExpboostQwQ/25432)
 
 ## 依赖
@@ -102,7 +102,7 @@ language:
 
 ## 支持
 
-如果你在使用过程中遇到任何问题，欢迎提出Issue或加入我们的交流群。
+如果你在使用过程中遇到任何问题，欢迎提出 Issue 或加入我们的交流群。
 
 ## 系统要求
 
