@@ -127,7 +127,6 @@ language:
 ## 开发信息
 
 - 作者：LittleSheep
-- 版本：1.0.0-SNAPSHOT
 - 许可证：MIT
 - GitHub：https://github.com/znc15/ExpboostQwQ
 
