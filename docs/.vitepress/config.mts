@@ -50,6 +50,13 @@ export default defineConfig({
                             {text: '📍 事件', link: '/AkariLevel/develop/event'},
                             {text: '📨 来源', link: '/AkariLevel/develop/source'}
                         ]
+                    },
+                    {
+                        text: '📎️ 拓展插件',
+                        collapsed: true,
+                        items: [
+                            {text: '🚀 ExpboostQwQ', link: '/AkariLevel/extension/ExpboostQwQ'}
+                        ]
                     }
                 ]
             }
