@@ -52,7 +52,7 @@ export default defineConfig({
                         ]
                     },
                     {
-                        text: '📎️ 拓展插件',
+                        text: '📎️ 附属插件',
                         collapsed: true,
                         items: [
                             {text: '🚀 ExpboostQwQ', link: '/AkariLevel/extension/ExpboostQwQ'}
