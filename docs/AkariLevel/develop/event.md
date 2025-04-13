@@ -1,6 +1,6 @@
 # 📍 事件
 
-> com.github.cpjinan.plugin.akarilevel.common.event
+> com.github.cpjinan.plugin.akarilevel.common.event.exp
 
 ---
 
