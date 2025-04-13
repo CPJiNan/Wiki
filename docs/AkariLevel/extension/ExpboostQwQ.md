@@ -11,10 +11,10 @@
 - 支持设置等级组特定倍率
 - 支持永久和临时加成
 - 支持多语言系统
-- 支持PlaceholderAPI变量
-- 支持bStats统计
+- 支持 PlaceholderAPI 变量
+- 支持 bStats 统计
 
-## PlaceholderAPI变量
+## PlaceholderAPI 变量
 
 本插件提供以下PlaceholderAPI变量：
 
@@ -155,7 +155,7 @@ language:
 
 ## 支持
 
-如果你在使用过程中遇到任何问题，欢迎提出Issue或加入我们的交流群。
+如果你在使用过程中遇到任何问题，欢迎提出 Issue 或加入我们的交流群。
 
 ## 系统要求
 
@@ -180,7 +180,6 @@ language:
 ## 开发信息
 
 - 作者：LittleSheep
-- 版本：1.0.0-SNAPSHOT
 - 许可证：MIT
 
 ## 构建项目
@@ -202,18 +201,21 @@ language:
 以下是插件的未来开发计划：
 
 ### 近期计划 (v1.1.0)
+
 - [ ] 添加GUI界面支持，使操作更加直观
 - [ ] 支持MySQL数据库存储
 - [ ] 添加更多经验来源的细分控制
 - [ ] 优化性能，减少内存占用
 
 ### 中期计划 (v1.2.0)
+
 - [ ] 添加经验加成活动系统
 - [ ] 支持更多变量和条件判断
 - [ ] 添加经验加成道具系统
 - [ ] 支持Redis缓存
 
 ### 长期计划 (v2.0.0)
+
 - [ ] 重构代码架构，提升扩展性
 - [ ] 添加API支持，方便其他插件集成
 - [ ] 支持更多服务端版本
@@ -226,7 +228,6 @@ language:
 
 1. 在GitHub上提交Issue
 2. 加入我们的交流群：[点击加入](https://qm.qq.com/q/fqjuNAOZMY)
-3. 发送邮件至：support@example.com
 
 ## 赞助支持
 
@@ -235,12 +236,15 @@ language:
 - 爱发电：[点击赞助](https://afdian.com/a/YangXiaoMian)
 
 所有赞助者都将获得：
+
 - 优先技术支持
 - 新功能建议优先采纳
 - 提前体验新版本
 
 ## 鸣谢
+
 感谢以下项目和贡献者：
+
 - AkariLevel - 等级系统支持
 - PlaceholderAPI - 变量支持
 - bStats - 统计支持
