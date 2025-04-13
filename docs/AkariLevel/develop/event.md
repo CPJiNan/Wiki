@@ -1,12 +1,14 @@
 # 📍 事件
 
-> com.github.cpjinan.plugin.akarilevel.common.event.exp
+> com.github.cpjinan.plugin.akarilevel.common.event
 
 ---
 
 > 请使用开发版本作为依赖编写插件，否则可能会无法监听 AkariLevel 声明的事件。
 
 ``` kotlin
+package com.github.cpjinan.plugin.akarilevel.common.event.exp
+
 /**
  * 玩家经验变更事件
  * @param player 玩家
@@ -26,6 +28,8 @@ class PlayerExpChangeEvent(
 ```
 
 ``` kotlin
+package com.github.cpjinan.plugin.akarilevel.common.event.level
+
 /**
  * 玩家经验变更事件
  * @param player 玩家
@@ -44,4 +48,17 @@ class PlayerLevelChangeEvent(
     var source: String
 ) :
     BukkitProxyEvent()
+```
+
+``` kotlin
+package com.github.cpjinan.plugin.akarilevel.common.event.plugin
+
+/**
+ * 插件重载事件
+ * @since 2025/1/22
+ */
+class PluginReloadEvent {
+    class Pre : BukkitProxyEvent()
+    class Post : BukkitProxyEvent()
+}
 ```
