@@ -22,7 +22,7 @@ export default defineConfig({
             {
                 text: '✨ AkariLevel',
                 items: [
-                    {text: '🏠 首页', link: '/AkariLevel/'},
+                    {text: '⏱️ 首页', link: '/AkariLevel/'},
                     {text: '❓ 常见问题', link: '/AkariLevel/issue'},
                     {
                         text: '🔥 开始',
@@ -63,7 +63,7 @@ export default defineConfig({
             {
                 text: '🔥 VitaSell',
                 items: [
-                    {text: '🏠 首页', link: '/VitaSell/'},
+                    {text: '⏱️ 首页', link: '/VitaSell/'},
                 ]
             }
         ],
