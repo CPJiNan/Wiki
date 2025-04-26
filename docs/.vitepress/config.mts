@@ -20,7 +20,7 @@ export default defineConfig({
         },
         sidebar: [
             {
-                text: 'AkariLevel',
+                text: '✨ AkariLevel',
                 items: [
                     {text: '🏠 首页', link: '/AkariLevel/'},
                     {text: '❓ 常见问题', link: '/AkariLevel/issue'},
@@ -58,6 +58,12 @@ export default defineConfig({
                             {text: '🚀 ExpboostQwQ', link: '/AkariLevel/extension/ExpboostQwQ'}
                         ]
                     }
+                ]
+            },
+            {
+                text: '🔥 VitaSell',
+                items: [
+                    {text: '🏠 首页', link: '/VitaSell/'},
                 ]
             }
         ],
