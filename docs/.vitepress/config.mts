@@ -63,6 +63,14 @@ export default defineConfig({
                 text: '🔥 VitaSell',
                 items: [
                     {text: '❗ 限时折扣价 12R', link: '/VitaSell/'},
+                    {
+                        text: '🔥 开始',
+                        collapsed: true,
+                        items: [
+                            {text: '🎼️ 命令', link: '/VitaSell/start/command'},
+                            {text: '🚫 权限', link: '/VitaSell/start/permission'}
+                        ]
+                    }
                 ]
             }
         ],
