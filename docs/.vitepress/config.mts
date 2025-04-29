@@ -60,7 +60,7 @@ export default defineConfig({
                 ]
             },
             {
-                text: '🔥 VitaSell',
+                text: '✨ VitaSell',
                 items: [
                     {text: '❗ 限时折扣价 12R', link: '/VitaSell/'},
                     {
