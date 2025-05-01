@@ -27,7 +27,7 @@ Layout:
 是 [XMaterial](https://github.com/TabooLib/taboolib/blob/dev/6.2.3/platform/platform-bukkit-impl/src/main/java/taboolib/library/xseries/XMaterial.java)
 的物品材质名称。
 
-## 界面功能
+## 菜单功能
 
 ### Auto-Sell
 
@@ -60,7 +60,7 @@ Example:
 3. 将无法存入灵魂背包的物品存入玩家背包。
 4. 将无法存入玩家背包的物品掉落在玩家脚下。
 
-## 图标功能
+## 物品图标功能
 
 你可以通过设置 `Bind` 项为图标绑定插件预设的功能。
 
