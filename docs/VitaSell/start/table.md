@@ -1,6 +1,6 @@
 # 🔍 出售界面
 
-## 界面布局
+## 菜单布局
 
 ``` yaml
 Layout:
@@ -27,40 +27,7 @@ Layout:
 是 [XMaterial](https://github.com/TabooLib/taboolib/blob/dev/6.2.3/platform/platform-bukkit-impl/src/main/java/taboolib/library/xseries/XMaterial.java)
 的物品材质名称。
 
-## 菜单功能
-
-### Auto-Sell
-
-``` yaml
-Example:
-  ...
-  Auto-Sell: true
-```
-
-关闭界面时自动出售界面中的物品。
-
-无法出售的物品将被返回玩家背包。
-
-如玩家背包已满，物品将会掉落在玩家脚下。
-
-### QFSoulBag:Auto-Store
-
-``` yaml
-Example:
-  ...
-  QFSoulBag:Auto-Store: true
-```
-
-关闭界面时自动将界面中物品存入灵魂背包。
-
-与 `Auto-Sell` 项同时启用时，优先级如下：
-
-1. 将界面中可出售的物品一键出售。
-2. 将无法出售的物品存入灵魂背包。
-3. 将无法存入灵魂背包的物品存入玩家背包。
-4. 将无法存入玩家背包的物品掉落在玩家脚下。
-
-## 物品图标功能
+## 物品图标
 
 你可以通过设置 `Bind` 项为图标绑定插件预设的功能。
 
@@ -142,3 +109,36 @@ _<font color=gray>来自灵魂背包插件 QFSoulBag 的绑定预设</font>_
 将灵魂背包中符合条件的物品一键放入出售界面。
 
 * **Put-Match:** 需执行一键放入操作物品的 Arim 匹配表达式。
+
+## 杂项设置
+
+### Auto-Sell
+
+``` yaml
+Example:
+  ...
+  Auto-Sell: true
+```
+
+关闭界面时自动出售界面中的物品。
+
+无法出售的物品将被返回玩家背包。
+
+如玩家背包已满，物品将会掉落在玩家脚下。
+
+### QFSoulBag:Auto-Store
+
+``` yaml
+Example:
+  ...
+  QFSoulBag:Auto-Store: true
+```
+
+关闭界面时自动将界面中物品存入灵魂背包。
+
+与 `Auto-Sell` 项同时启用时，优先级如下：
+
+1. 将界面中可出售的物品一键出售。
+2. 将无法出售的物品存入灵魂背包。
+3. 将无法存入灵魂背包的物品存入玩家背包。
+4. 将无法存入玩家背包的物品掉落在玩家脚下。
