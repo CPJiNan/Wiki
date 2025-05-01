@@ -73,6 +73,14 @@ export default defineConfig({
                             {text: '🔍 出售界面', link: '/VitaSell/start/table'},
                             {text: '🪙 出售规则', link: '/VitaSell/start/sell'}
                         ]
+                    },
+                    {
+                        text: '🌥️ 关于',
+                        collapsed: true,
+                        items: [
+                            {text: '❗ 重要地址', link: '/VitaSell/about/link'},
+                            {text: '✨ 支持作者', link: '/VitaSell/about/donate'},
+                        ]
                     }
                 ]
             }
