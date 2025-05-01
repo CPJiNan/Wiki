@@ -62,7 +62,8 @@ export default defineConfig({
             {
                 text: '✨ VitaSell',
                 items: [
-                    {text: '❗ 限时折扣价 12R', link: '/VitaSell/'},
+                    {text: '💰 插件购买', link: '/VitaSell/'},
+                    {text: '❓ 常见问题', link: '/VitaSell/issue'},
                     {
                         text: '🔥 开始',
                         collapsed: true,

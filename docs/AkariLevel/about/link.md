@@ -4,8 +4,6 @@
 
 **插件文档:** https://cpjinan.github.io/Wiki/
 
-**插件下载:** https://www.spigotmc.org/resources/116936/
-
 **Kether脚本动作列表:** https://kether.tabooproject.org/list.html
 
 **特别鸣谢(排名不分先后):**
