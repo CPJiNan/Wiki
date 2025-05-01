@@ -69,7 +69,8 @@ export default defineConfig({
                         collapsed: true,
                         items: [
                             {text: '🎼️ 命令', link: '/VitaSell/start/command'},
-                            {text: '🚫 权限', link: '/VitaSell/start/permission'}
+                            {text: '🚫 权限', link: '/VitaSell/start/permission'},
+                            {text: '🔍 出售界面', link: '/VitaSell/start/table'}
                         ]
                     }
                 ]
