@@ -50,7 +50,7 @@
 
 ## 配置文件
 
-```yaml
+``` yaml
 # ExpboostQwQ 配置文件
 # 作者: LittleSheep
 

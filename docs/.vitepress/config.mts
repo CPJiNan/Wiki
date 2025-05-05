@@ -38,7 +38,7 @@ export default defineConfig({
                         collapsed: true,
                         items: [
                             {text: '❗ 重要地址', link: '/AkariLevel/about/link'},
-                            {text: '✨ 支持作者', link: '/AkariLevel/about/donate'},
+                            {text: '✨ 支持作者', link: '/AkariLevel/about/donate'}
                         ]
                     },
                     {
@@ -60,6 +60,27 @@ export default defineConfig({
                 ]
             },
             {
+                text: '✨ ItemTools',
+                items: [
+                    {text: '🏷 插件介绍', link: '/ItemTools/'},
+                    {
+                        text: '🔥 开始',
+                        collapsed: true,
+                        items: [
+                            {text: '🎼️ 命令', link: '/ItemTools/start/command'},
+                            {text: '🚫 权限', link: '/ItemTools/start/permission'}
+                        ]
+                    },
+                    {
+                        text: '🛠️ 开发',
+                        collapsed: true,
+                        items: [
+                            {text: '📦 API', link: '/ItemTools/develop/api'}
+                        ]
+                    },
+                ]
+            },
+            {
                 text: '✨ VitaSell',
                 items: [
                     {text: '💰 插件购买', link: '/VitaSell/'},
@@ -78,7 +99,7 @@ export default defineConfig({
                         collapsed: true,
                         items: [
                             {text: '❗ 重要地址', link: '/VitaSell/about/link'},
-                            {text: '✨ 支持作者', link: '/VitaSell/about/donate'},
+                            {text: '✨ 支持作者', link: '/VitaSell/about/donate'}
                         ]
                     }
                 ]
