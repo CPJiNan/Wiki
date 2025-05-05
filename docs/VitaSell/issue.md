@@ -114,3 +114,31 @@ Point:
 等配置项中均可使用。
 
 需要注意的是，物品 Lore 需含有 `Args` 中指定的所有参数，否则该物品将会被视为无法出售。
+
+## Q6: 如何设置出售给予玩家物品？
+
+A6: 使用 `ItemTools` 插件提供的出售操作 `Item` ，例如：
+
+``` yaml
+Example:
+  ...
+  Action:
+    Item:
+      - "Apple 1~5 0.8~1.0"
+```
+
+其中，`Apple` 是物品名称、`1~5` 是数量、`0.8~1.0` 是触发概率。
+
+此外，如果你想给予玩家 `MythicMobs` 等插件的物品，请在物品 ID 前添加对应命名空间前缀，如 `MythicMobs:Apple` 。
+
+需要注意的是，使用该功能也需安装前置插件 `ItemTools` 。
+
+如果 `ItemTools` 的物品列表中没有出现带有 `MythicMobs:` 前缀的物品，请检查 `ItemTools/settings.yml`
+中，对应插件的物品自动导入功能是否开启。
+
+``` yaml
+Item:
+  Plugin:
+    - MythicMobs
+    ...
+```
