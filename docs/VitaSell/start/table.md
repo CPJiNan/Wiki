@@ -110,6 +110,39 @@ _<font color=gray>来自灵魂背包插件 QFSoulBag 的绑定预设</font>_
 
 * **Put-Match:** 需执行一键放入操作物品的 Arim 匹配表达式。
 
+### SpaceCache:Store
+
+_<font color=gray>来自仓库插件 SpaceCache 的绑定预设</font>_
+
+``` yaml
+'S':
+  Type: 'GREEN_STAINED_GLASS_PANE'
+  Data: 5
+  Name: '§a存入仓库'
+  Lore: [ ]
+  Bind: "SpaceCache:Store"
+```
+
+将出售界面中的物品一键存入仓库。
+
+### SpaceCache:Put
+
+_<font color=gray>来自仓库插件 SpaceCache 的绑定预设</font>_
+
+``` yaml
+'P':
+  Type: 'GREEN_STAINED_GLASS_PANE'
+  Data: 5
+  Name: '§a一键放入'
+  Lore: [ ]
+  Bind: "SpaceCache:Put"
+  Put-Match: "name:&f示例材料;lore:contains(&a可回收)"
+```
+
+将仓库中符合条件的物品一键放入出售界面。
+
+* **Put-Match:** 需执行一键放入操作物品的 Arim 匹配表达式。
+
 ## 杂项设置
 
 ### Auto-Sell
@@ -141,4 +174,21 @@ Example:
 1. 将界面中可出售的物品一键出售。
 2. 将无法出售的物品存入灵魂背包。
 3. 将无法存入灵魂背包的物品存入玩家背包。
+4. 将无法存入玩家背包的物品掉落在玩家脚下。
+
+### SpaceCache:Auto-Store
+
+``` yaml
+Example:
+  ...
+  SpaceCache:Auto-Store: true
+```
+
+关闭界面时自动将界面中物品存入仓库。
+
+与 `Auto-Sell` 项同时启用时，优先级如下：
+
+1. 将界面中可出售的物品一键出售。
+2. 将无法出售的物品存入仓库。
+3. 将无法存入仓库的物品存入玩家背包。
 4. 将无法存入玩家背包的物品掉落在玩家脚下。
