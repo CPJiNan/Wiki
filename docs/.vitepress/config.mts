@@ -83,7 +83,7 @@ export default defineConfig({
             {
                 text: '✨ VitaSell',
                 items: [
-                    {text: '💰 插件购买', link: '/VitaSell/'},
+                    {text: '🏷 插件介绍', link: '/VitaSell/'},
                     {text: '❓ 常见问题', link: '/VitaSell/issue'},
                     {
                         text: '🔥 开始',
@@ -91,6 +91,7 @@ export default defineConfig({
                         items: [
                             {text: '🎼️ 命令', link: '/VitaSell/start/command'},
                             {text: '🚫 权限', link: '/VitaSell/start/permission'},
+                            {text: '📋 出售规则', link: '/VitaSell/start/sell'},
                             {text: '🔍 出售界面', link: '/VitaSell/start/table'}
                         ]
                     },

@@ -37,6 +37,8 @@ Layout:
 
 ### VitaSell:Sell
 
+_<font color=gray>来自 VitaSell 的原生绑定预设</font>_
+
 ``` yaml
 'S':
   Type: 'YELLOW_STAINED_GLASS_PANE'
@@ -49,6 +51,8 @@ Layout:
 一键出售界面中所有空槽位中的物品。
 
 ### VitaSell:Put
+
+_<font color=gray>来自 VitaSell 的原生绑定预设</font>_
 
 ``` yaml
 'P':
@@ -65,6 +69,8 @@ Layout:
 * **Put-Match:** 需执行一键放入操作物品的 Arim 匹配表达式。
 
 ### VitaSell:Close
+
+_<font color=gray>来自 VitaSell 的原生绑定预设</font>_
 
 ``` yaml
 'C':
@@ -147,6 +153,8 @@ _<font color=gray>来自仓库插件 SpaceCache 的绑定预设</font>_
 
 ### Auto-Sell
 
+_<font color=gray>来自 VitaSell 的原生杂项设置</font>_
+
 ``` yaml
 Example:
   ...
@@ -160,6 +168,8 @@ Example:
 如玩家背包已满，物品将会掉落在玩家脚下。
 
 ### QFSoulBag:Auto-Store
+
+_<font color=gray>来自灵魂背包插件 QFSoulBag 的杂项设置</font>_
 
 ``` yaml
 Example:
@@ -177,6 +187,8 @@ Example:
 4. 将无法存入玩家背包的物品掉落在玩家脚下。
 
 ### SpaceCache:Auto-Store
+
+_<font color=gray>来自仓库插件 SpaceCache 的杂项设置</font>_
 
 ``` yaml
 Example:
