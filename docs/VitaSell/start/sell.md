@@ -46,7 +46,7 @@ name:regex(^示例.*材料$)
 # 全部满足/任意满足/全部不满足
 name:all(startswith(&6示例),contains(材料))
 name:any(startswith(&6示例),contains(材料))
-name:not(startswith(&6示例),contains(材料))
+name:none(startswith(&6示例),contains(材料))
 
 # 名称匹配 / Lore 匹配 / 材质匹配 / 数量匹配
 name:contains(出售材料)
