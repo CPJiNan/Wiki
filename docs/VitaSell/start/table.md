@@ -68,6 +68,21 @@ _<font color=gray>来自 VitaSell 的原生绑定预设</font>_
 
 * **Put-Match:** 需执行一键放入操作物品的 Arim 匹配表达式。
 
+### VitaSell:Store
+
+_<font color=gray>来自 VitaSell 的原生绑定预设</font>_
+
+``` yaml
+'S':
+  Type: 'GREEN_STAINED_GLASS_PANE'
+  Data: 5
+  Name: '§a存入背包'
+  Lore: [ ]
+  Bind: "Store"
+```
+
+将出售界面中的物品一键存入背包。
+
 ### VitaSell:Close
 
 _<font color=gray>来自 VitaSell 的原生绑定预设</font>_
