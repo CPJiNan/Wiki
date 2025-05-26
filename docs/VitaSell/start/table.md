@@ -18,6 +18,7 @@ Layout:
   Data: 4
   Name: '§e点击出售'
   Lore: [ ]
+  Kether: [ ]
   Bind: "Sell"
 ```
 
@@ -45,6 +46,7 @@ _<font color=gray>来自 VitaSell 的原生绑定预设</font>_
   Data: 4
   Name: '§e点击出售'
   Lore: [ ]
+  Kether: [ ]
   Bind: "Sell"
 ```
 
@@ -60,6 +62,7 @@ _<font color=gray>来自 VitaSell 的原生绑定预设</font>_
   Data: 5
   Name: '§a一键放入'
   Lore: [ ]
+  Kether: [ ]
   Bind: "Put"
   Put-Match: "name:&f示例材料;lore:contains(&a可回收)"
 ```
@@ -78,6 +81,7 @@ _<font color=gray>来自 VitaSell 的原生绑定预设</font>_
   Data: 5
   Name: '§a存入背包'
   Lore: [ ]
+  Kether: [ ]
   Bind: "Store"
 ```
 
@@ -93,6 +97,7 @@ _<font color=gray>来自 VitaSell 的原生绑定预设</font>_
   Data: 14
   Name: '§c关闭菜单'
   Lore: [ ]
+  Kether: [ ]
   Bind: "Close"
 ```
 
@@ -108,6 +113,7 @@ _<font color=gray>来自灵魂背包插件 QFSoulBag 的绑定预设</font>_
   Data: 5
   Name: '§a存入灵魂背包'
   Lore: [ ]
+  Kether: [ ]
   Bind: "QFSoulBag:Store"
 ```
 
@@ -123,6 +129,7 @@ _<font color=gray>来自灵魂背包插件 QFSoulBag 的绑定预设</font>_
   Data: 5
   Name: '§a一键放入'
   Lore: [ ]
+  Kether: [ ]
   Bind: "QFSoulBag:Put"
   Put-Match: "name:&f示例材料;lore:contains(&a可回收)"
 ```
@@ -141,6 +148,7 @@ _<font color=gray>来自仓库插件 SpaceCache 的绑定预设</font>_
   Data: 5
   Name: '§a存入仓库'
   Lore: [ ]
+  Kether: [ ]
   Bind: "SpaceCache:Store"
 ```
 
@@ -156,6 +164,7 @@ _<font color=gray>来自仓库插件 SpaceCache 的绑定预设</font>_
   Data: 5
   Name: '§a一键放入'
   Lore: [ ]
+  Kether: [ ]
   Bind: "SpaceCache:Put"
   Put-Match: "name:&f示例材料;lore:contains(&a可回收)"
 ```
