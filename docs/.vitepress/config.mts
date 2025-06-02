@@ -94,13 +94,21 @@ export default defineConfig({
                             {text: '📋 出售规则', link: '/VitaSell/start/sell'},
                             {text: '🔍 出售界面', link: '/VitaSell/start/table'}
                         ]
-                    },
+                    }
+                ]
+            },
+            {
+                text: '✨ VitaGem',
+                items: [
+                    {text: '🏷 插件介绍', link: '/VitaGem/'},
                     {
-                        text: '🌥️ 关于',
+                        text: '🔥 开始',
                         collapsed: true,
                         items: [
-                            {text: '❗ 重要地址', link: '/VitaSell/about/link'},
-                            {text: '✨ 支持作者', link: '/VitaSell/about/donate'}
+                            {text: '🎼️ 命令', link: '/VitaGem/start/command'},
+                            {text: '🚫 权限', link: '/VitaGem/start/permission'},
+                            {text: '📋 宝石配置', link: '/VitaGem/start/gem'},
+                            {text: '🔍 UI 界面', link: '/VitaGem/start/table'}
                         ]
                     }
                 ]
