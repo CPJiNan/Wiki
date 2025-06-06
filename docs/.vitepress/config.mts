@@ -20,7 +20,7 @@ export default defineConfig({
         },
         sidebar: [
             {
-                text: '✨ AkariLevel',
+                text: '✨ AkariLevel 澄明等级',
                 items: [
                     {text: '❓ 常见问题', link: '/AkariLevel/'},
                     {
@@ -60,7 +60,7 @@ export default defineConfig({
                 ]
             },
             {
-                text: '✨ ItemTools',
+                text: '✨ ItemTools 物品工具',
                 items: [
                     {text: '🏷 插件介绍', link: '/ItemTools/'},
                     {
@@ -81,7 +81,7 @@ export default defineConfig({
                 ]
             },
             {
-                text: '✨ VitaSell',
+                text: '✨ VitaSell 青芒出售',
                 items: [
                     {text: '🏷 插件介绍', link: '/VitaSell/'},
                     {text: '❓ 常见问题', link: '/VitaSell/issue'},
@@ -98,7 +98,7 @@ export default defineConfig({
                 ]
             },
             {
-                text: '✨ VitaGem',
+                text: '✨ VitaGem 青芒宝石',
                 items: [
                     {text: '🏷 插件介绍', link: '/VitaGem/'},
                     {
