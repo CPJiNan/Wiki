@@ -110,6 +110,14 @@ export default defineConfig({
                             {text: '📋 宝石配置', link: '/VitaGem/start/gem'},
                             {text: '🔍 UI 界面', link: '/VitaGem/start/table'}
                         ]
+                    },
+                    {
+                        text: '🛠️ 开发',
+                        collapsed: true,
+                        items: [
+                            {text: '📦 API', link: '/VitaGem/develop/api'},
+                            {text: '📍 事件', link: '/VitaGem/develop/event'}
+                        ]
                     }
                 ]
             }
